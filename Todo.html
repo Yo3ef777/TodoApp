@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="bg-image">
+      <div class="container">
+        <div class="rectangel">
+          <div class="text">
+            <h1 class="h1" id="h1">Todo Done</h1>
+            <h6 class="h6" id="h2">Keep it up</h6>
+          </div>
+          <div class="Circle">
+            <h2 class="h2" id="h3">0 0</h2>
+          </div>
+        </div>
+      </div>
+      <div class="inputItem">
+        <input
+          type="text"
+          class="input"
+          id="input"
+          placeholder="Write your next task"
+        />
+        <button class="btn" id="btn">Add</button>
+      </div>
+      <p id="p"></p>
+      <div class="list-item" id="listItem">
+        <ul class="ul" id="ul"></ul>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
